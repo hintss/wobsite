@@ -1,0 +1,41 @@
+body {
+	color: #111111;
+	width: 100%;
+	scroll-x: hidden;
+	overflow-x: hidden;
+	background-image: url('/static/images/gray_jean.png');
+}
+#main {
+	margin: 0px auto;
+	width: 80%;
+}
+.monospace {
+	font-family: 'Ubuntu Mono', sans-serif;
+	font-weight: 400;
+}
+#title {
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 400;
+	text-align: center;
+	text-shadow: 2px 2px 2px #999;
+}
+#cornerfbbutton {
+	position: absolute;
+	bottom: 5px;
+	right: 5px;
+}
+.rainbow {
+	background-image:-webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+	color:transparent;
+	-webkit-background-clip: text;
+}
+#rainbowtitle {
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 400;
+	text-align: center;
+	text-shadow: 3px 3px 2px #000;
+
+	background-image:-webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+	color:transparent;
+	-webkit-background-clip: text;
+}
