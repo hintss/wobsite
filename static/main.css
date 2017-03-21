@@ -3,7 +3,7 @@ body {
 	width: 100%;
 	scroll-x: hidden;
 	overflow-x: hidden;
-	background-image: url('/static/images/gray_jean.png');
+	background-image: url('static/images/gray_jean.png');
 }
 #main {
 	margin: 0px auto;
